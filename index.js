@@ -8,9 +8,6 @@
 const Alexa = require('ask-sdk');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
-const languageStrings = {
-  'en': require('./data/language.js')
-};
 
 const all_items = require('./data/items.js');
 
