@@ -1,0 +1,531 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "unofficial disney guessing game",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DisneyIntent",
+                    "slots": [
+                        {
+                            "name": "disney",
+                            "type": "Disney"
+                        }
+                    ],
+                    "samples": [
+                        "{disney}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RepeatIntent",
+                    "slots": [],
+                    "samples": [
+                        "say again",
+                        "replay",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "DunnoIntent",
+                    "slots": [],
+                    "samples": [
+                        "dont know",
+                        "im not sure",
+                        "i cant remember",
+                        "cant remember",
+                        "know idea",
+                        "i dont know",
+                        "dunno",
+                        "no idea",
+                        "no clue",
+                        "i don't know",
+                        "don't know"
+                    ]
+                },
+                {
+                    "name": "SkipIntent",
+                    "slots": [],
+                    "samples": [
+                        "next",
+                        "skip"
+                    ]
+                },
+                {
+                    "name": "StartIntent",
+                    "slots": [],
+                    "samples": [
+                        "begin",
+                        "let go",
+                        "lets get started",
+                        "start game",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "YesNoIntent",
+                    "slots": [
+                        {
+                            "name": "yesno",
+                            "type": "YesNo"
+                        }
+                    ],
+                    "samples": [
+                        "{yesno}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Disney",
+                    "values": [
+                        {
+                            "id": "41",
+                            "name": {
+                                "value": "Dory"
+                            }
+                        },
+                        {
+                            "id": "40",
+                            "name": {
+                                "value": "Nemo"
+                            }
+                        },
+                        {
+                            "id": "39",
+                            "name": {
+                                "value": "Pluto",
+                                "synonyms": [
+                                    "Pluto the Pup"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "38",
+                            "name": {
+                                "value": "The Sheriff of Nottingham",
+                                "synonyms": [
+                                    "Sheriff of Nottingham",
+                                    "Nottingham Sheriff",
+                                    "The Sheriff"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "37",
+                            "name": {
+                                "value": "Little John",
+                                "synonyms": [
+                                    "John Little"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "36",
+                            "name": {
+                                "value": "Randall Boggs",
+                                "synonyms": [
+                                    "Boggs"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "35",
+                            "name": {
+                                "value": "Henry J. Waternoose",
+                                "synonyms": [
+                                    "Waternoose",
+                                    "Mr. Waternoose"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "34",
+                            "name": {
+                                "value": "James P. Sullivan",
+                                "synonyms": [
+                                    "James Sulley Sullivan",
+                                    "Sulley"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "33",
+                            "name": {
+                                "value": "Mike Wazowski",
+                                "synonyms": [
+                                    "Wazowski",
+                                    "Mike"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "32",
+                            "name": {
+                                "value": "Mary Poppins"
+                            }
+                        },
+                        {
+                            "id": "31",
+                            "name": {
+                                "value": "Shere Khan",
+                                "synonyms": [
+                                    "Khan"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "30",
+                            "name": {
+                                "value": "King Louie"
+                            }
+                        },
+                        {
+                            "id": "29",
+                            "name": {
+                                "value": "Kaa",
+                                "synonyms": [
+                                    "Kaa the Snake"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "28",
+                            "name": {
+                                "value": "Baloo",
+                                "synonyms": [
+                                    "Baloo The Bear"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "27",
+                            "name": {
+                                "value": "Simba"
+                            }
+                        },
+                        {
+                            "id": "26",
+                            "name": {
+                                "value": "Mufasa"
+                            }
+                        },
+                        {
+                            "id": "25",
+                            "name": {
+                                "value": "Zazu"
+                            }
+                        },
+                        {
+                            "id": "24",
+                            "name": {
+                                "value": "Snow White"
+                            }
+                        },
+                        {
+                            "id": "23",
+                            "name": {
+                                "value": "Evil Queen",
+                                "synonyms": [
+                                    "Queen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "22",
+                            "name": {
+                                "value": "Grumpy"
+                            }
+                        },
+                        {
+                            "id": "21",
+                            "name": {
+                                "value": "Captain Hook",
+                                "synonyms": [
+                                    "Hook"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "20",
+                            "name": {
+                                "value": "Wendy",
+                                "synonyms": [
+                                    "Wendy Darling"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "19",
+                            "name": {
+                                "value": "Peter Pan",
+                                "synonyms": [
+                                    "Peter"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "18",
+                            "name": {
+                                "value": "Mr. Smee",
+                                "synonyms": [
+                                    "Smee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "17",
+                            "name": {
+                                "value": "Mr. Potato Head",
+                                "synonyms": [
+                                    "Potato",
+                                    "Potato Head"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "name": {
+                                "value": "Buzz Lightyear",
+                                "synonyms": [
+                                    "Buzz Light Year",
+                                    "Buzz"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "15",
+                            "name": {
+                                "value": "Hercules"
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "name": {
+                                "value": "Woody",
+                                "synonyms": [
+                                    "Sheriff Woody"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "13",
+                            "name": {
+                                "value": "Ariel",
+                                "synonyms": [
+                                    "Little Mermaid",
+                                    "The Little Mermaid"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "name": {
+                                "value": "Sebastian"
+                            }
+                        },
+                        {
+                            "id": "11",
+                            "name": {
+                                "value": "Ursula"
+                            }
+                        },
+                        {
+                            "id": "10",
+                            "name": {
+                                "value": "Pumbaa"
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "name": {
+                                "value": "Lumiere",
+                                "synonyms": [
+                                    "lumiere",
+                                    "Candlestick"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "Belle"
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "Alice",
+                                "synonyms": [
+                                    "Alice in Wonderland"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "Jafar"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "Genie",
+                                "synonyms": [
+                                    "The Genie",
+                                    "Genie of the Lamp"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "Iago"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "Aladdin",
+                                "synonyms": [
+                                    "Prince Ali"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "Jasmine",
+                                "synonyms": [
+                                    "Princess Jasmine"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "name": {
+                                "value": "Cinderella"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "YesNo",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "nein"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oh yea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yeah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
